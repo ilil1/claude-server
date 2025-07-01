@@ -1,4 +1,5 @@
 # Claude Server MCP
+[![smithery badge](https://smithery.ai/badge/@ilil1/claude-server)](https://smithery.ai/server/@ilil1/claude-server)
 
 > ⚠️ **IMPORTANT: Project Status** ⚠️
 > 
@@ -48,6 +49,14 @@ For a more detailed roadmap, see our [Comprehensive Analysis](https://github.com
   - Asynchronous operations
 
 ## Installation
+
+### Installing via Smithery
+
+To install claude-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ilil1/claude-server):
+
+```bash
+npx -y @smithery/cli install @ilil1/claude-server --client claude
+```
 
 The server is automatically configured in your Claude desktop app's MCP settings. All contexts are stored in `~/.claude/` for better organization:
 
